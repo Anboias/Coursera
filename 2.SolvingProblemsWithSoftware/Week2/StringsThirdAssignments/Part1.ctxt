@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=dna
+comment0.target=int\ countCTG(java.lang.String)
+comment1.params=dna
+comment1.target=double\ cgRatio(java.lang.String)
+comment2.params=sr
+comment2.target=void\ processGenes(edu.duke.StorageResource)
+numComments=3

@@ -1,0 +1,18 @@
+#BlueJ package file
+objectbench.height=76
+objectbench.width=686
+package.editor.height=400
+package.editor.width=560
+package.editor.x=1109
+package.editor.y=145
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=UTF-8
+target1.height=62
+target1.name=findAllGenes
+target1.type=PackageTarget
+target1.width=110
+target1.x=110
+target1.y=10

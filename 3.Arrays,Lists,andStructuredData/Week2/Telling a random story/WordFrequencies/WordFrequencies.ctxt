@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WordFrequencies()
+comment1.params=
+comment1.target=void\ findUnique()
+comment2.params=
+comment2.target=void\ findCharNames()
+comment3.params=refNum1\ refNum2
+comment3.target=void\ testFindCharNames(int,\ int)
+comment4.params=s
+comment4.target=boolean\ isAllUpper(java.lang.String)
+comment5.params=refNum1\ refNum2
+comment5.target=void\ printListCharNames(int,\ int)
+comment6.params=
+comment6.target=void\ tester()
+comment7.params=
+comment7.target=int\ findMax()
+comment8.params=
+comment8.target=int\ findIndexOfMax()
+numComments=9

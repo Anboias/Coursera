@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=t
+comment0.target=void\ testGetFollows(java.lang.String)
+comment1.params=t
+comment1.target=void\ testGetFollowsWithFile(java.lang.String)
+numComments=2

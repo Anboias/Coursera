@@ -1,0 +1,26 @@
+// write your code here
+var x = 3;
+var y = 3 * x;
+
+var robert = new SimpleImage("drewRobert.png");
+var dino = new SimpleImage("dinos.png");
+
+var imgCopy = new SimpleImage(robert.getWidth(), robert.getHeight());
+
+for (var pixel of imgCopy.values()){
+    var tempRobert = robert.getPixel(pixel.getX(), pixel.getY());
+    var tempDino = dino.getPixel(pixel.getX(), pixel.getY());
+    if (tempRobert.getGreen() > 250){
+        pixel.setGreen(tempDino.getGreen());
+        pixel.setRed(tempDino.getRed());
+        pixel.setBlue(tempDino.getBlue());
+    }
+    else
+    {
+        pixel.setGreen(tempRobert.getGreen());
+        pixel.setRed(tempRobert.getRed());
+        pixel.setBlue(tempRobert.getBlue());
+    }
+
+}
+print(imgCopy);

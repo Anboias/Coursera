@@ -1,0 +1,20 @@
+// write your code here
+var rob = new SimpleImage("drewRobert.png");
+var dino = new SimpleImage("dinos.png");
+
+var output = new SimpleImage(rob.getWidth(), rob.getHeight());
+
+for (var pixel of rob.values()){
+    if (pixel.getGreen() > pixel.getBlue() + pixel.getRed()){
+        var x = pixel.getX();
+        var y = pixel.getY();
+        var dinoPixel = dino.getPixel(x, y);
+        
+        output.setPixel(x, y, dinoPixel);
+    }
+    else {
+        output.setPixel(pixel.getX(), pixel.getY(), pixel);
+    }
+}
+
+print(output);
